@@ -25,3 +25,5 @@ ggplot(df, aes(Species, value, fill= variable)) + geom_bar(stat= "identity", pos
 ggplot(faithful, aes(waiting)) + geom_density()
 ggplot(iris, aes(Sepal.Length, Sepal.Width, color = Species))+ geom_point(aes(shape = Species), size=3) +
   geom_smooth(method ="lm") + facet_grid(.~ Species) + theme_bw()
+
+#  a test
