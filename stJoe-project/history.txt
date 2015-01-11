@@ -498,3 +498,503 @@
   589  git diff --staged
   590  cat combine.sh 
   591  history > history.txt
+  110  cd DE
+  111  cd Desktop/
+  112  ls
+  113  cd Coursera\:R/
+  114  git clone https://github.com/rdpeng/courses.git
+  115  cd Desktop/
+  116  ipython notebook --pylab inline
+  117  cd Desktop/
+  118  ipython notebook --pylab inline
+  119  ipython notebook --pylab inline
+  120  conda update conda
+  121  conda update anaconda
+  122  conda update pandas
+  123  mkdir data/cameras.csv
+  124  mkdir data
+  125  touch cameras.csv
+  126  ls
+  127  cd data
+  128  ls
+  129  touch cameras.csv
+  130  ls
+  131  echo
+  132  cd Desktop/
+  133  ipython notebook 
+  134  cd Desktop/
+  135  cd swirl/
+  136  git pull
+  137  cd Desktop/
+  138  ipython notebook 
+  139  ipython notebook 
+  140  ls
+  141  mkdir data1
+  142  ls
+  143  ls
+  144  cd data1
+  145  rm data1
+  146  ..
+  147  ./
+  148  cd .
+  149  cd ..
+  150  rmdir data1
+  151  cd data1
+  152  ls
+  153  cd ..
+  154  ls
+  155  rmdir data1
+  156  /Users/jamesmankin/Desktop/anaconda/pkgs/tk-8.5.15-0/lib/tk8.5/demos/timer ; exit;
+  157  cd  Desktop/
+  158  ls
+  159  cd swirl/
+  160  git pull
+  161  cd Desktop/
+  162  ls
+  163  cd traumadata/
+  164  ls
+  165  cd ..
+  166  cd .
+  167  cd /
+  168  ls
+  169  cd Users/
+  170  ls
+  171  cd jamesmankin/
+  172  ls
+  173  conda update conda
+  174  conda update anaconda
+  175  conda update pandas
+  176  git
+  177  R
+  178  git
+  179  cd Desktop/
+  180  ls
+  181  git help git
+  182  cd Desktop/
+  183  cd swirl/
+  184  ls
+  185  R
+  186  what
+  187  whoami
+  188  firefox
+  189  open firefox
+  190  cd Desktop/
+  191  open firefox
+  192  cd ..
+  193  cd Applications/
+  194  open firefox
+  195  ls
+  196  pwd
+  197  cd ..
+  198  cd Desktop/
+  199  ls
+  200  open firefox
+  201  cd /
+  202  ls
+  203  cd Applications/
+  204  open firefox
+  205  ls
+  206  ls
+  207  LS
+  208  cd /
+  209  cd Users/
+  210  ls
+  211  cd jamesmankin/
+  212  ls
+  213  ls -f
+  214  ls -d
+  215  ls -F
+  216  cd Desktop/
+  217  ls
+  218  cd SWC
+  219  ls
+  220  ls-F
+  221  ls -F
+  222  ls
+  223  ls -F
+  224  ls -f     /
+  225  cd /
+  226  ls
+  227  cd Users/
+  228  ls
+  229  cd jamesmankin/
+  230  ls
+  231  cd Desktop/
+  232  ls
+  233  ls -F ~
+  234  pwd
+  235  echo ~
+  236  echo this is a test ~
+  237  echo this   is a      lot       of       spaces
+  238  help(echo)
+  239  ?echo
+  240  echo ?
+  241  echo help
+  242  echo "$path"
+  243  ls
+  244  cd My
+  245  --help
+  246  help
+  247  cd SWC
+  248  ls
+  249  cd ~
+  250  ls
+  251    cd Desktop/
+  252  ls
+  253  R rest.R
+  254  cd SWC
+  255  cd ..
+  256  cd /
+  257  ls
+  258  cd Users/
+  259  ls -F -a
+  260  cd jamesmankin/
+  261  ls -F -a
+  262  ls -F
+  263  cd ~
+  264  ls
+  265  cd Desktop/
+  266  cd SWC
+  267  ls -r
+  268  cd ..
+  269  ls -r
+  270  ls -l
+  271  cd --help
+  272  cd -L
+  273  cd .. -L
+  274  cd ..
+  275  ls
+  276  cd Users/
+  277  ls
+  278  cd jamesmankin/
+  279  ls
+  280  cd Desktop/
+  281  cd ..
+  282  cd ..
+  283  cd jamesmankin/Desktop/SWC
+  284  ls
+  285  cd ..
+  286  ls -l SWD
+  287  ls -l SWC
+  288  ls -a -l SWC
+  289  man ls
+  290  man pwd
+  291  pwd -P
+  292  pwd
+  293  man pwd
+  294  man ls?
+  295  man ls ?
+  296  ls ../SWC
+  297  ls ..
+  298  ls ../SWC
+  299  ls /SWC
+  300  cd SWC
+  301  ls ../Desktop
+  302  ls ../Desktop
+  303  pwd
+  304  ls ../../Desktop/
+  305  pwd
+  306  cd ../
+  307  cd SWC
+  308  ls ../SWC
+  309  cd ../..
+  310  pwd
+  311  cd Desktop/
+  312  ls pwd
+  313  ls pwd
+  314  ls -r -F
+  315  ls -r -F 
+  316  ls -F
+  317  ls -r -F /Users
+  318  cd 
+  319  whoami
+  320  cd
+  321  ls -s -h
+  322  man ls
+  323  ls -S
+  324  ls -S -h
+  325  man ls
+  326  ls -S -h -l
+  327  cd Desktop/
+  328  ls -S -h -l
+  329  ls -S -h -l
+  330  ls -Shl
+  331  cd SWC
+  332  ls -Shl
+  333  cd ..
+  334  mkdir data
+  335  ls
+  336  ls
+  337  cd data/
+  338  nano
+  339  nano draft.txt
+  340  ls
+  341  nano thing
+  342  ls
+  343  cat draft.txt 
+  344  cat thing 
+  345  ls -l
+  346  mkdir textFile.txt
+  347  ls
+  348  rmdir textFile.txt/
+  349  ls
+  350  mkdir temp
+  351  rm-i thing
+  352  ls
+  353  rm -i thing
+  354  ls
+  355  rm temp
+  356  nano draft.txt
+  357  mv draft.txt  temp
+  358  ls
+  359  cd temp/
+  360  ls
+  361  cd ..
+  362  ls temp
+  363  cd temp/
+  364  mv draft.txt data
+  365  cd ..
+  366  ls
+  367  cd temp/
+  368  ls
+  369   cd data 
+  370  ls
+  371  rmdir temp
+  372  ls
+  373  rm data
+  374  ls
+  375  cd ..
+  376  cd ..
+  377  ls
+  378  cd data/
+  379  ls
+  380  rm -r temp
+  381  ls
+  382  ls
+  383  ls ..
+  384  ../../
+  385  cd ../../
+  386  ls
+  387  ../../ ls
+  388  cd /Desktop/SWC
+  389  ls
+  390  cd Desktop/SWC
+  391  cd ..
+  392  cd ..
+  393  ls
+  394  cd Downloads/
+  395  ls
+  396  cd ..
+  397  ls
+  398  cd clean
+  399  cd Desktop/
+  400  cd cle
+  401  cd ..
+  402  cd Downloads/
+  403  ls
+  404  cd clean/
+  405  ls
+  406  cd ..
+  407  mv ~/Downloads/clean ~/Desktop/data
+  408  cd ..
+  409  cd Desktop/
+  410  ls
+  411  cd data/
+  412  ls
+  413  ls
+  414  cd clean/
+  415  ls
+  416  cat Afghanistan.cc.txt 
+  417  cd ~/Desktop/
+  418  mkdir backup
+  419  mv ~/Desktop/data/clean/ ~/Desktop/backup/
+  420  cd backup/
+  421  ls
+  422  cp -r ~/Desktop/backup/ ~/Desktop/data/
+  423  cd ..
+  424  cd data/
+  425  ls
+  426  cd clea
+  427  cd clean/
+  428  ls
+  429  ls
+  430  cd ..
+  431  ls
+  432  cd thing/
+  433  ls
+  434  cd thing 
+  435  cp thing
+  436  ls
+  437  ls -r
+  438  ls -R
+  439  cd ..
+  440  ls -R
+  441  ls -t
+  442  ls -R -t
+  443  ls
+  444  cd data/
+  445  ls
+  446  cd clean/
+  447  cat Zimbabwe.cc.txt 
+  448  wc Zimbabwe.cc.txt 
+  449  wc -l .
+  450  wc -l *
+  451  echo *
+  452  wc echo *
+  453  echo A*
+  454  wc - l A*
+  455  wc -ll A*
+  456  wc -l *txt
+  457  cat country.cc.txt 
+  458  wc -l *.txt
+  459  cat Nigeria.cc.txt 
+  460  cat Niger*
+  461  cat Niger* | sort
+  462  wc -l *.txt
+  463  cat China.cc.txt | sort
+  464  wc -l *.txt | sort
+  465  man sort
+  466  wc -l -r  *.txt | sort
+  467  wc -l *.txt | sort
+  468  cat Guinea.cc.txt 
+  469  cat Guinea.cc.txt 
+  470  cat Guinea.cc.txt 
+  471  wc -l Gui* | sort
+  472  cat Guinea-Bissau.cc.txt 
+  473  cat Guinea-Bissau.cc.txt Switzerland.cc.txt 
+  474  ls {F,A,B}*
+  475  echo {F,A,B}*
+  476  ls {G}*
+  477  ls {G}*
+  478  ls G*
+  479  ls {g,a}*
+  480  ls {A:D}*
+  481  ls {A..Z}*
+  482  echo {19..20}{5..9}{2,7}
+  483  echo {19..20}{5..9}{2,7}
+  484  cat Zimbabwe.cc.txt 
+  485  echo 19{5..9}
+  486  echo 19{5..9}{2,7}
+  487  echo {19..20}{5..9}{2..7}
+  488  for filename in Afghanistan.cc.txt Zimbabwe.cc.txt Guinea.cc.txt ; do     ls -l $filename; done
+  489  for filename in Afghanistan.cc.txt Zimbabwe.cc.txt Guinea.cc.txt ; do   echo  ls -l $filename; done
+  490  for filename in {A,B,Z,Y}* do echo ls -l $filename done;  )))
+  491  for filename in {A,B,Z,Y}*; do     echo ls - $filename; done
+  492  for filename in {A,B,Z,Y}*; do     echo ls   $filename; done
+  493  for andrea in {A,B,C}*; do    echo -ls $andrea; done
+  494  for andrea in {A,B,C}*; do    echo  $andrea; done
+  495  for turkey in {A..Z}*; do     echo ls -l $turkey; done
+  496  for turkey in {A..J}*; do     echo ls -l $turkey; done
+  497  for turkey in {A..J}*; do     echo  $turkey; done
+  498  for turkey in {A..J}*; do     echo  $turkey; done
+  499  for turkey in {A..F}*; do echo ls -s $turkey; echo Jim is cool; done
+  500  echo $PATH
+  501  say how are you
+  502  history
+  503  man history
+  504  ls -F
+  505  ls -a
+  506  cat .gitconfig 
+  507  git config --global core.editor "nano"
+  508  cat .gitconfig 
+  509  cat .gitconfig 
+  510  cd Desktop/
+  511  mkdir StJosephsProject
+  512  cd StJosephsProject/
+  513  ls
+  514  ls -F
+  515  cd stJoe-project/
+  516  ls
+  517  cat cleanData.sh 
+  518  cat combine.sh 
+  519  ls
+  520  cat rename.sh 
+  521  ls
+  522  cat cleanData.sh 
+  523  cat combine.sh 
+  524  ls
+  525  cat setupProject.sh 
+  526  #a;dslkfjad;slkfj
+  527  history
+  528  ls
+  529  ls
+  530  ls
+  531  bash setupProject.sh 
+  532  ls
+  533  cd code/
+  534  ls
+  535  cd ..
+  536  pwd
+  537  cd ..
+  538  pwd
+  539  git init
+  540  ls -Fa
+  541  git status
+  542  git add stJoe-project/
+  543  git status
+  544  git status
+  545  git status
+  546   git status
+  547  history
+  548  git commit
+  549  git status
+  550  git log
+  551  ls
+  552  cd stJoe-project/
+  553  ls
+  554  cat rename.sh 
+  555  nano rename.sh 
+  556  bash rename.sh 
+  557  ls data/clean/A*
+  558  ls data/clean/A*.cc.txt
+  559  bash rename.sh data/clean/A*.cc.txt
+  560  git status
+  561  git add rename.sh 
+  562  git status
+  563  git diff --staged
+  564  git commit
+  565  git log
+  566  bash rename.sh data/clean/*.cc.txt
+  567  git status
+  568  git add data/clean/*
+  569  git status
+  570  git commit
+  571  git status
+  572  git status
+  573  git add data/clean/*
+  574  git commit
+  575  git status
+  576  git status
+  577  ls
+  578  cd combine.sh 
+  579  ls
+  580  cat combine.sh 
+  581  nano combine.sh 
+  582  git status
+  583  git status
+  584  git add -A
+  585  git status
+  586  git commit
+  587  git lof
+  588  git log
+  589  git diff --staged
+  590  cat combine.sh 
+  591  history > history.txt
+  592  history
+  593  git status
+  594  git add history.txt 
+  595  git commit 
+  596  git status
+  597  history.txt
+  598  nano history.txt 
+  599  git status
+  600  bash combine.sh 
+  601  ls output/
+  602  cat combined_gapMinder.tsv
+  603  git status
+  604  git add output/combined_gapMinder.tsv 
+  605  git commit -m "Created combined gapMinder dataset"
+  606  git status
+  607  git log
+  608  wc -l data/clean/*.txt | sort
+  609  history >> history.txt 
