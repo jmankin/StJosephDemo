@@ -7,16 +7,36 @@ The goal of this report is to analyze the data using `ggplot2`.
 
 
 
-
+Here we have loaded the data and libraries to analyze the data.
 ```{r}
 library(ggplot2)
+library(dplyr)
 gap.data.in <- read.delim("output//combined_gapMinder.tsv",header=TRUE,sep="\t")
+names(gap.data.in)
 ```
-
+Here we are subsetting three countries using 'dplyr'.
+```{r}
+angola <- filter(gap.data.in,country == "Angola")
+pakistan <- filter(gap.data.in, country == "Pakistan")
+argentina <- filter(gap.data.in, country == "Argentina")
+all <- filter(gap.data.in, country=="Angola" | country=="Pakistan"| country=="Argentina")
+```
+Now we will plot GDP by year
 First we will do some summary statistics on the dataset.
 ```{r}
-summary(gap.data.in)
+ggplot(angola, aes(x=year,y=gdpPercap)) + geom_point() + geom_smooth()
+ggplot(all, aes(x=year,y=gdpPercap,color=country)) + geom_point() + geom_smooth() 
 ```
+Now we will get the mean, max and min of continents.
+```{r}
+asia <- filter(gap.data.in,continent=="Asia")
+africa <- filter(gap.data.in,continent=="Africa")
+americas <- filter(gap.data.in, continent=="Americas")
+summary(asia$gdpPercap)
+summary(africa$gdpPercap)
+summary(americas$gdpPercap)
+```
+
 Next we would like to do three things:
 
 1. Write this list
